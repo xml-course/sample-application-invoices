@@ -3,7 +3,7 @@ import org.springframework.boot.gradle.plugin.SpringBootPlugin
 plugins {
     java
 
-    id("org.springframework.boot") version "3.4.5"
+    id("org.springframework.boot") version "3.5.3"
 }
 
 repositories {
@@ -23,5 +23,5 @@ dependencies {
     implementation("org.apache.xmlgraphics:fop:2.11")
 
     runtimeOnly("org.webjars:webjars-locator-core:0.59")
-    runtimeOnly("org.webjars:bootstrap:5.3.5")
+    runtimeOnly("org.webjars:bootstrap:5.3.7")
 }
